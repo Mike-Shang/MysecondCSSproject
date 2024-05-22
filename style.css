@@ -10,7 +10,7 @@ body,
 }
 
 body {
-	background: #000;
+	background: #fff;
 	background-position: center;
 	background-size: cover;
 	transition: all 0.8s;
@@ -23,7 +23,7 @@ body {
 }
 
 .text p {
-	color: #fff;
+	color: #000;
 	font-size: 50px;
 	position: absolute;
 	top: 50%;
@@ -112,8 +112,5 @@ h1 {
 
 
 
-/* 只反转canvas元素的颜色 */
-canvas {
-    filter: invert(100%);
-}
+
 
